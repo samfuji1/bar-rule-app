@@ -8,7 +8,7 @@
     "rule": "by action or operation of law"
   },
   {
-    "topic": "Duties",
+    "topic": "Duties of principal",
     "rule": "principal owes compensation, cooperation, reimbursement, and express K duties; agents owe reasonable care, loyalty, obedience, and express K duties"
   },
   {
@@ -20,27 +20,27 @@
     "rule": "3P reasonably believes agent has authority based on 3P dealings with principal"
   },
   {
-    "topic": "Ratification",
+    "topic": "Ratification (agency)",
     "rule": "principal ratifies K after agent entered and before 3P withdrew"
   },
   {
-    "topic": "Liability on Contract",
+    "topic": "Principal Liability on Contract",
     "rule": "principal bound if authority; agent bound unless principal\u2019s existence and identity are disclosed; 3P bound to principal if valid authority exists and bound to agent if principal is unidentified or undisclosed and agent enforces contract"
   },
   {
-    "topic": "Liability on Tort",
+    "topic": "Principal Liability on Tort",
     "rule": "employee or independent contractor"
   },
   {
-    "topic": "Employee vs. Independent Contractor",
+    "topic": "Difference between Employee and Independent Contractor",
     "rule": "primary issue is whether the principal has the right to control the individual\u2019s method and manner of work"
   },
   {
-    "topic": "Partnership Law",
+    "topic": "Partnership Law (what other rules apply)",
     "rule": "always apply agency rules within partnership (partners are agents of the partnership)"
   },
   {
-    "topic": "Formation",
+    "topic": "Formation of Partnership",
     "rule": "formed when two or more people associate to carry on as co-owners a legal business for profit (no formal agreement required)"
   },
   {
@@ -56,11 +56,11 @@
     "rule": "each partner is agent of partnership and may bind partnership if actual or apparent authority  each partner is J+S liable"
   },
   {
-    "topic": "Actual Authority",
+    "topic": "Actual Authority (partnership requirements)",
     "rule": "requires a majority vote of the partners, and actual authority to enter into matters outside the ordinary course of business requires unanimous consent of all partners."
   },
   {
-    "topic": "Personal Jurisdiction",
+    "topic": "Personal Jurisdiction (2 requirements)",
     "rule": "need statutory and constitutional jurisdiction"
   },
   {
@@ -80,7 +80,7 @@
     "rule": "complete diversity (or between citizen of U.S. state and foreign citizen) AND exceeding $75k (good faith claim)"
   },
   {
-    "topic": "Citizenship",
+    "topic": "Citizenship (personal jurisdiction)",
     "rule": "person is citizen of domicile, corporation is citizen of every state in which it is incorporated and one where principal place of business"
   },
   {
@@ -100,7 +100,7 @@
     "rule": "federal court sitting in diversity must apply the substantive law of the forum court"
   },
   {
-    "topic": "Venue",
+    "topic": "Venue (where proper)",
     "rule": "venue proper in district where any defendant resides (if all in same state), where a substantial part of events occurred, or where a substantial part of property is"
   },
   {
@@ -120,31 +120,31 @@
     "rule": "12(b) motions to dismiss are waived unless SMJ, failure to state a claim, or failure to join a party"
   },
   {
-    "topic": "Answer",
+    "topic": "Answer (time)",
     "rule": "21 days to answer after service, 14 days after denial of rule 12 motion (60 days if service waived)"
   },
   {
-    "topic": "Amendments",
+    "topic": "Amendments to Pleading",
     "rule": "may be amended as matter of course within 21 days of service"
   },
   {
-    "topic": "Default",
-    "rule": "clerk can enter judgment if damages are clearly established and defendant has not shown up in court (if not"
+    "topic": "Default Judgment (clerk entry)",
+    "rule": "clerk can enter judgment if damages are clearly established and defendant has not shown up in court"
   },
   {
-    "topic": "Rule 11",
+    "topic": "Rule 11 (discovery)",
     "rule": "must present document for appropriate reason"
   },
   {
-    "topic": "Sanctions",
+    "topic": "Sanctions procedure",
     "rule": "inform how Rule 11 violated, then give party 21 days to fix"
   },
   {
-    "topic": "Joinder",
+    "topic": "Joinder (two types)",
     "rule": "compulsory joinder and permissive joinder"
   },
   {
-    "topic": "Disclosures",
+    "topic": "Disclosures without request",
     "rule": "initial disclosures, expert testimony, and pretrial disclosures DON\u2019T NEED REQUEST"
   },
   {
@@ -156,43 +156,35 @@
     "rule": "discovery and scheduling conference"
   },
   {
-    "topic": "Summary Judgment",
+    "topic": "Summary Judgment standard",
     "rule": "no genuine dispute of material fact and entitled to judgment as a matter of law (until 30 days after discovery closes)"
   },
   {
-    "topic": "Temporary Restraining Order",
+    "topic": "Temporary Restraining Order requirements",
     "rule": "TRO must state the reasons why it was issued and must detail the acts restrained"
   },
   {
     "topic": "Preliminary Injunction",
-    "rule": "Rule:"
-  },
-  {
-    "topic": "Demand",
-    "rule": "must make a demand for jury trial"
-  },
-  {
-    "topic": "Summary Judgment",
-    "rule": "based on evidence, no genuine dispute of material fact and moving party entitled to judgment"
+    "rule": "irreparable harm, likelihood of prevailing at trial, and any other public or private interests implicated by the injunction"
   },
   {
     "topic": "Judgment as a Matter of Law",
     "rule": "evidence is such that a reasonable jury would not have a legally sufficient basis to find for party on issue (not considering the credibility of the witnesses)"
   },
   {
-    "topic": "Renewed Motion for Judgment as Matter of Law",
+    "topic": "Renewed Motion for Judgment as Matter of Law (timing)",
     "rule": "must move for judgment as matter of law on the SAME GROUNDS prior to preserve 28 days after entry of judgment"
   },
   {
-    "topic": "Motion for New Trial",
+    "topic": "Motion for New Trial (when can be granted)",
     "rule": "a new trial may be granted because of some serious error that occurred during the trial (for example, an error in the admission of evidence, error in instructing the jury, the verdict is excessive, etc.)"
   },
   {
-    "topic": "Verdicts",
+    "topic": "Verdicts (2 types)",
     "rule": "general or specific verdict"
   },
   {
-    "topic": "Claim and Issue Preclusion (REVIEW)",
+    "topic": "Claim and Issue Preclusion (who is bound)",
     "rule": "only parties and privies bound by prior litigation (must have actually litigated)"
   },
   {
@@ -208,23 +200,23 @@
     "rule": "arises when judgment has been entered by a court in one jurisdiction and is seeking to be enforced in another in a sister state"
   },
   {
-    "topic": "Requirements",
+    "topic": "Requirements to recognize sister state judgments",
     "rule": "must meet full faith and credit and have no valid defenses"
   },
   {
-    "topic": "Full Faith and Credit",
+    "topic": "Full Faith and Credit requirements",
     "rule": "jurisdiction and final judgment on the merits"
   },
   {
-    "topic": "Defenses",
+    "topic": "Defenses to recognition of sister state judgments",
     "rule": "penal judgment and extrinsic fraud not corrected at trial not entitled to full faith and credit"
   },
   {
-    "topic": "Invalid Defenses",
+    "topic": "Invalid Defenses to recognition of sister state judgments",
     "rule": "public policy and mistake ARE NOT valid defenses"
   },
   {
-    "topic": "Requirements",
+    "topic": "Requirements to recognize foreign judgments",
     "rule": "recognition based on doctrines of comity or treaty"
   },
   {
@@ -233,30 +225,30 @@
   },
   {
     "topic": "Vested Rights Approach",
-    "rule": "Rule:"
+    "rule": "Rule: characterize area of substantive law, determine choice of law rule, localize rule"
   },
   {
     "topic": "Interest Analysis",
-    "rule": "Rule:"
+    "rule": "Rule: assume forum law controls ; if no other interest, false conflict ;  if another state has interest, true conflict so consider policies"
   },
   {
     "topic": "Most Significant Relationship",
-    "rule": "Rule:"
+    "rule": "Rule: state related most to issue then public policy "
   },
   {
-    "topic": "Formation Requirements",
+    "topic": "Formation Requirements of Corporation",
     "rule": "file articles of incorporation with name of corporation, number of authorized shares, and name and address of incorporators and of registered agent"
   },
   {
-    "topic": "Defective Incorporation",
+    "topic": "Defective Incorporation - liability",
     "rule": "person who knowingly acts on behalf of invalid incorporation is personally liable (not passive investors)"
   },
   {
-    "topic": "De facto incorporation",
+    "topic": "De facto incorporation - liability",
     "rule": "no liability if colorable compliance with incorporation statute and exercise of corporate privileges"
   },
   {
-    "topic": "Estoppel",
+    "topic": "Estoppel corporate liability",
     "rule": "people treating business as valid corporation are estopped from denying corporation\u2019s existence"
   },
   {
@@ -264,11 +256,11 @@
     "rule": "promoters are liable for pre-incorporation contracts, and liability continues absent novation upon corporate formation"
   },
   {
-    "topic": "Piercing Corporate Veil",
+    "topic": "Piercing Corporate Veil (3 methods)",
     "rule": "alter ego doctrine, inadequate capitalization, or perpetration of fraud pierces veil to create liability for active shareholders"
   },
   {
-    "topic": "Capital Structure",
+    "topic": "Capital Structure (2 main forms)",
     "rule": "bonds create debtor-creditor relationship and stocks create ownership interest"
   },
   {
@@ -276,7 +268,7 @@
     "rule": "shares in article but not currently issued"
   },
   {
-    "topic": "Issued and outstanding",
+    "topic": "Issued and outstanding shares",
     "rule": "shares sold to investors"
   },
   {
@@ -288,7 +280,7 @@
     "rule": "any benefit to the corporation is valid consideration (good faith)"
   },
   {
-    "topic": "Directors",
+    "topic": "Directors must act...",
     "rule": "must act in good faith, with the care that a person would exercise in a like position, and in a manner the director reasonably believed to be in the best interest of the corporation"
   },
   {
@@ -296,35 +288,35 @@
     "rule": "presumption that a director\u2019s decision may not be challenged if the director acted as a reasonable person would in a similar position"
   },
   {
-    "topic": "Liabilities",
+    "topic": "Liabilities of directors",
     "rule": "fiduciary duties of care and loyalty"
   },
   {
-    "topic": "Officers",
+    "topic": "Officers appointment",
     "rule": "appointed by board and removed by board"
   },
   {
-    "topic": "Authority and Liability",
+    "topic": "Authority and Liability of officers",
     "rule": "actual and apparent authority with same liabilities and duties as those owed by directors"
   },
   {
-    "topic": "Voting",
+    "topic": "Shareholder Voting",
     "rule": "SHs elect directors, amend bylaws, and approve fundamental changes"
   },
   {
-    "topic": "Notice",
+    "topic": "Notice for SH vote",
     "rule": "need notice of annual meeting and special meeting (purpose)"
   },
   {
-    "topic": "Quorum",
+    "topic": "Quorum for SH vote",
     "rule": "majority of outstanding voting share must be present for valid vote"
   },
   {
-    "topic": "Approval",
+    "topic": "Approval of SH vote",
     "rule": "action approved if quorum and majority vote"
   },
   {
-    "topic": "Rights",
+    "topic": "Rights of SHs",
     "rule": "inspection rights and appraisal rights for dissenting votes"
   },
   {
@@ -332,11 +324,11 @@
     "rule": "amendments to articles, mergers, consolidations, share exchanges, dispositions of all assets outside regular course of business"
   },
   {
-    "topic": "Procedure",
+    "topic": "Procedure for Fundamental Corporate Change",
     "rule": "resolution, SH notice, SH vote, articles of change filed with state"
   },
   {
-    "topic": "Mergers",
+    "topic": "Mergers - who must approve",
     "rule": "director and SH approval from BOTH corporations"
   },
   {
@@ -344,43 +336,43 @@
     "rule": "SHs who don\u2019t like fundamental change can force corporation to purchase shares"
   },
   {
-    "topic": "LLCs",
+    "topic": "LLCs - what generally controls",
     "rule": "operating agreement will generally control"
   },
   {
-    "topic": "Formation",
+    "topic": "LLC Formation",
     "rule": "file organization with secretary of state and have at least one member"
   },
   {
-    "topic": "Management",
+    "topic": "LLC Management",
     "rule": "member-managed (members owe duty of loyalty and care), but can be manager-managed (only managers owe duty of loyalty and care)"
   },
   {
-    "topic": "Duty of Care",
+    "topic": "LLC Duty of Care",
     "rule": "no gross negligence"
   },
   {
-    "topic": "Duty of Loyalty",
+    "topic": "LLC Duty of Loyalty",
     "rule": "no self-dealings, competing, etc."
   },
   {
-    "topic": "Liability",
+    "topic": "LLC Liability",
     "rule": "member or manager must have actual or apparent authority to bind LLC"
   },
   {
-    "topic": "Distributions",
+    "topic": "LLC Distributions",
     "rule": "members entitled to profits and distributions, typically according the ownership stake"
   },
   {
-    "topic": "Dissociation",
+    "topic": "LLC Dissociation",
     "rule": "can voluntarily or involuntarily dissociate"
   },
   {
-    "topic": "Transferability",
+    "topic": "LLC member transferability",
     "rule": "free transfer of economic rights but not management rights"
   },
   {
-    "topic": "Voluntary Act",
+    "topic": "Crim Law - Voluntary Act",
     "rule": "reflexes and unconscious acts not enough"
   },
   {
@@ -392,7 +384,7 @@
     "rule": "voluntary physical act and culpable mental state occur at same time"
   },
   {
-    "topic": "Who Can Be Found Guilty",
+    "topic": "What types of liability can be found guilty",
     "rule": "principal, accomplice, accessories after fact"
   },
   {
@@ -424,15 +416,15 @@
     "rule": "killing commission of BARRK felony"
   },
   {
-    "topic": "Causation",
+    "topic": "Criminal causation (liability)",
     "rule": "liable for all natural and probable consequences"
   },
   {
-    "topic": "Battery",
+    "topic": "Battery (criminal)",
     "rule": "the unlawful application of force to another resulting in either bodily injury or an offensive touching"
   },
   {
-    "topic": "Assault (SI)",
+    "topic": "Assault (SI) (criminal)",
     "rule": "(1) an attempt to commit a battery or (2) the intentional creation (other than by mere words) of a reasonable apprehension in the mind of imminent bodily harm"
   },
   {
@@ -484,23 +476,23 @@
     "rule": "Rule:D lacked ability to know right from wrong or understand the nature of his actions"
   },
   {
-    "topic": "Infancy",
+    "topic": "Infancy (criminal)",
     "rule": "under 7 (all crimes); under 14, rebuttable presumption of defense"
   },
   {
-    "topic": "Self-Defense",
+    "topic": "Self-Defense (criminal)",
     "rule": "person without fault may use force as person reasonably believes is necessary to protect themselves from the imminent use of unlawful force upon themselves"
   },
   {
-    "topic": "Duress",
+    "topic": "Duress (criminal defense)",
     "rule": "D reasonably believed that another person would imminently inflict death or great bodily harm upon them or a member of their family if the defendant did not commit the crime (not defense for intentional homicide)"
   },
   {
-    "topic": "Necessity",
+    "topic": "Necessity (criminal defense)",
     "rule": "person reasonably believed commission of the crime was necessary to avoid an imminent and greater injury to society than that involved in the crime"
   },
   {
-    "topic": "Mistake of Fact",
+    "topic": "Mistake of Fact (criminal defense)",
     "rule": "only a defense if it shows that D lacked state of mind required for the crime (not applicable to SL crimes)"
   },
   {
@@ -508,7 +500,7 @@
     "rule": "criminal design originates with cops and D was not predisposed to commit the crime prior to contact by the government"
   },
   {
-    "topic": "Seizure",
+    "topic": "Seizure (crim pro)",
     "rule": "any exercise of control over a person or thing where a reasonable person would feel like they could not freely leave the encounter"
   },
   {
@@ -524,55 +516,55 @@
     "rule": "legal if there is a reasonable suspicion that a law has been violated"
   },
   {
-    "topic": "General",
-    "rule": "Rule:reasonable expectation of privacy and valid warrant or within exception"
+    "topic": "General search and seizure rules",
+    "rule": "reasonable expectation of privacy and valid warrant or within exception"
   },
   {
-    "topic": "Reasonable Expectation",
+    "topic": "Reasonable Expectation of privacy",
     "rule": "standing only created when possessed place, home, or overnight stay was searched (sometimes property that is reasonably expected to be private, e.g., cell phone and extensive cell phone data)"
   },
   {
-    "topic": "Valid Warrant",
+    "topic": "Valid Warrant requirements",
     "rule": "affidavit to neutral magistrate who found probable cause (totality of circumstances)"
   },
   {
-    "topic": "Searches Pursuant to Warrants",
+    "topic": "Searches Pursuant to Warrants requirements",
     "rule": "probable cause and particularity (place to be searched and items to be seized)"
   },
   {
-    "topic": "Search Incident to Constitutional Arrest*",
+    "topic": "Search Incident to Constitutional Arrest exception",
     "rule": "lawful arrest and contemporaneous search within person and wingspan"
   },
   {
-    "topic": "Automobile Exception*",
+    "topic": "Automobile Exception",
     "rule": "probable cause to believe that a vehicle contains evidence of crime, they may search whole vehicle and any container within for which there is probable cause to search (can arise after car is stopped)"
   },
   {
-    "topic": "Plain View*",
+    "topic": "Plain View exception",
     "rule": "warrantless seizure allowed when police are\u2026"
   },
   {
-    "topic": "Consent*",
+    "topic": "Consent exception to warrant",
     "rule": "any consented to search is valid without warrant (anyone who apparently has authority allowed)"
   },
   {
-    "topic": "Stop and Frisk (Terry Stop)",
+    "topic": "Stop and Frisk (Terry Stop) requirements",
     "rule": "may stop a person if there is an articulable and reasonable suspicion of criminal activity"
   },
   {
-    "topic": "Hot Pursuit",
+    "topic": "Hot Pursuit exception",
     "rule": "in pursuit of fleeing felon, police can make warrantless search and seizure and pursue the suspect into private dwelling (15 minute rule)"
   },
   {
-    "topic": "Evanescent Evidence",
+    "topic": "Evanescent Evidence exception",
     "rule": "if evidence might disappear quickly, can get evidence without warrant"
   },
   {
-    "topic": "Emergency Aid",
+    "topic": "Emergency Aid exception",
     "rule": "may enter premises without a warrant if officer faces emergency that threatens the health or safety of individual or public"
   },
   {
-    "topic": "Voluntariness",
+    "topic": "Voluntariness (confessions)",
     "rule": "14A forbids involuntary circumstance (can suppress the confession substantively and for impeachment)"
   },
   {
@@ -588,15 +580,15 @@
     "rule": "any evidence obtained in violation of 4th, 5th, or 6th Amendment rights is prohibited from introduction"
   },
   {
-    "topic": "Double Jeopardy",
+    "topic": "Double Jeopardy attachment",
     "rule": "attaches at swearing in of jury or when first witness is sworn (bench trials)"
   },
   {
-    "topic": "Contents",
+    "topic": "Contents of premarital agreement",
     "rule": "generally valid, but cannot contain custody or child support provisions (will be stricken)"
   },
   {
-    "topic": "Requirements for Validity",
+    "topic": "Requirements for Validity of premarital agreement",
     "rule": "must be in writing and signed; entered into voluntarily (no fraud, duress, overreaching); and there must be full and fair disclosure of the parties\u2019 assets or proof that there was individual knowledge of the assets (only if unconscionable)"
   },
   {
@@ -616,67 +608,67 @@
     "rule": "bigamy and incest are void; nonage, incurable physical impotence, lack of capacity, duress, and fraud are voidable"
   },
   {
-    "topic": "Common Law Marriages",
+    "topic": "Common Law Marriage requirements",
     "rule": "requires consent to marry, cohabitation, and publicly holding out as spouses"
   },
   {
-    "topic": "Jurisdiction",
+    "topic": "Jurisdiction of divorce",
     "rule": "only one spouse needs to be domiciled in jurisdiction (in rem action) for divorce jurisdiction, but you need personal jurisdiction for remedies"
   },
   {
-    "topic": "No -Fault",
+    "topic": "No -Fault divorce",
     "rule": "irretrievable broken marriage; living apart for specified and continuous period of time; or incompatibility"
   },
   {
-    "topic": "Fault",
+    "topic": "Fault divorce",
     "rule": "adultery, willful abandonment, cruelty, voluntary drug addiction or alcoholism after marriage, and insanity"
   },
   {
-    "topic": "Property Division",
+    "topic": "Property Division, 2 steps",
     "rule": "classify (what is marital property) and division (equitable division regardless of title)"
   },
   {
     "topic": "Separate Property",
-    "rule": "includes\u2026"
+    "rule": "includes property owned before marriage or after legal separation"
   },
   {
     "topic": "Marital Property",
-    "rule": "includes\u2026"
+    "rule": "includes property acquired during marriage"
   },
   {
-    "topic": "Property that Changes Character",
+    "topic": "Separate Property that Changes Character",
     "rule": "commingling and transmutation can change separate property into marital property"
   },
   {
-    "topic": "Division",
-    "rule": "court has great discretion and will look at the following factors"
+    "topic": "Division of property",
+    "rule": "court has great discretion and will look at various factors"
   },
   {
-    "topic": "Types and Purpose",
+    "topic": "Purpose of spousal support",
     "rule": "alimony paid to economically dependent spouse"
   },
   {
-    "topic": "Factors",
+    "topic": "Factors of spousal support",
     "rule": "needs of claimant and ability of other spouse to pay"
   },
   {
-    "topic": "Modification and Termination",
+    "topic": "Modification and Termination of spousal support",
     "rule": "must be substantial change in circumstances to modify; terminates at death or remarriage of recipient spouse"
   },
   {
-    "topic": "Jurisdiction",
+    "topic": "Jurisdiction of child support",
     "rule": "state where first petition for child support is filed"
   },
   {
-    "topic": "Modification",
+    "topic": "Modification of child support",
     "rule": "substantial and continuing change of circumstances (issuing court has jurisdiction)"
   },
   {
-    "topic": "Enforcement",
+    "topic": "Enforcement of child support",
     "rule": "original court has jurisdiction to enforce but direct enforcement and registration allows for other states to enforce"
   },
   {
-    "topic": "Jurisdiction",
+    "topic": "Jurisdiction of custody",
     "rule": "home state jurisdiction"
   },
   {
@@ -688,15 +680,15 @@
     "rule": "absent voluntary relinquishment, parent is entitled to custody unless nonparent can show it will result in harm to the child or parent is unfit"
   },
   {
-    "topic": "Modification",
+    "topic": "Modification to custody",
     "rule": "substantial and material change in circumstances"
   },
   {
-    "topic": "Relocation",
+    "topic": "Relocation of parent requirements",
     "rule": "notice to other parent and court hearing to determine if relocation is permitted"
   },
   {
-    "topic": "Marital Presumption",
+    "topic": "Marital Presumption (parentage)",
     "rule": "mother\u2019s husband presumed to be father if child is born during marriage or within 300 days of marriage\u2019s termination"
   },
   {
@@ -708,67 +700,67 @@
     "rule": "voluntary and involuntary"
   },
   {
-    "topic": "Involuntary",
+    "topic": "Involuntary termination of parental rights",
     "rule": "harm, abandonment, neglect, incapacity, or general unfitness"
   },
   {
-    "topic": "Adoption",
+    "topic": "Adoption effect on rights",
     "rule": "terminates parents rights and unmarried father can only veto if he has undertaken parental responsibility"
   },
   {
-    "topic": "Relevance",
+    "topic": "Relevance (evidence)",
     "rule": "must be MATERIAL and PROBATIVE (evidence of fleeing prosecution is relevant of guilt)"
   },
   {
     "topic": "General Rule of Admissibility",
-    "rule": "all relevant evidence is admissible UNLESS"
+    "rule": "all relevant evidence is admissible"
   },
   {
     "topic": "Rule 403",
     "rule": "court can exclude evidence if its probative value is substantially outweighed by the danger of one or more of the following"
   },
   {
-    "topic": "Similar Occurrences",
+    "topic": "Similar Occurrences (evidence)",
     "rule": "if evidence involves some time, event, or person other than that involved in the present case, it is INADMISSIBLE, with following exceptions"
   },
   {
-    "topic": "Liability Insurance",
+    "topic": "Liability Insurance evidence",
     "rule": "cannot be used to show whether the party acted negligently or wrongfully"
   },
   {
-    "topic": "Subsequent Remedial Measures",
+    "topic": "Subsequent Remedial Measures evidence",
     "rule": "cannot be used to prove negligence, culpability, defect, or need for warning"
   },
   {
-    "topic": "Civil Settlement and Negotiations",
+    "topic": "Civil Settlement and Negotiations evidence",
     "rule": "cannot be used to prove or disprove the validity or amount of a disputed claim OR impeach a witness by prior inconsistent statement or contradiction"
   },
   {
-    "topic": "Plea Discussions",
+    "topic": "Plea Discussions evidence",
     "rule": "can\u2019t include offers to plead guilty, withdrawn guilty pleas, no contest pleas, statements of fact made above"
   },
   {
-    "topic": "Offers to Pay Expenses",
+    "topic": "Offers to Pay Expenses evidence",
     "rule": "inadmissible to prove liability for injury"
   },
   {
-    "topic": "Character Evidence",
+    "topic": "Character Evidence (when allowed)",
     "rule": "allowed when character is directly in issue, propensity evidence, or impeachment purposes"
   },
   {
-    "topic": "Criminal Defendant Character",
+    "topic": "Criminal Defendant Character (when allowed)",
     "rule": "prosecution CANNOT introduce any propensity evidence; D cannot provide specific acts (can introduce relevant good character traits)"
   },
   {
-    "topic": "Criminal Victim Character",
+    "topic": "Criminal Victim Character (when allowed)",
     "rule": "except in SA cases, D can introduce reputation or opinion evidence of bad character of victim when relevant to show D\u2019s innocence"
   },
   {
-    "topic": "Other Misconduct",
+    "topic": "Other Misconduct evidence",
     "rule": "evidence of other crimes, wrongs, or acts is generally inadmissible to prove propensity, but admissible to prove MIMIC"
   },
   {
-    "topic": "Authentication",
+    "topic": "Authentication evidence",
     "rule": "must be sufficient to support jury finding of genuineness"
   },
   {
@@ -780,7 +772,7 @@
     "rule": "to prove the content of a writing, recording, or photograph, the original writing must be produced if the terms of the writing are material"
   },
   {
-    "topic": "Witnesses",
+    "topic": "Witnesses general rule",
     "rule": "general presumption of competency (personal knowledge of the matter and give an oath)"
   },
   {
@@ -808,72 +800,75 @@
     "rule": "party may show by cross or extrinsic evidence that witness made previous inconsistent statements"
   },
   {
-    "topic": "Bias",
+    "topic": "Bias impeachment evidence",
     "rule": "before a witness can be impeached by extrinsic evidence of bias they must first be asked about facts showing bias or interest on cross"
   },
   {
-    "topic": "Sensory Deficiencies",
+    "topic": "Sensory Deficiencies impeachement evidence",
     "rule": "no foundation necessary"
   },
   {
-    "topic": "Contradictory Facts",
+    "topic": "Contradictory Facts impeachment evidence",
     "rule": "can bring in extrinsic evidence if witness continues to lie about MATERIAL fact"
   },
   {
-    "topic": "Opinion or Reputation Evidence of Untruthfulness",
+    "topic": "Opinion or Reputation Evidence of Untruthfulness impeachment evidence",
     "rule": "allowed but no specific acts"
   },
   {
-    "topic": "Conviction",
+    "topic": "Conviction impeachment evidence",
     "rule": "any crime involving dishonesty must be admitted (unless over 10 years ago)"
   },
   {
-    "topic": "Bad Acts",
-    "rule": "if act is probative of truthfulness, it\u2019s allowed (court has discretion to allow)"
+    "topic": "Bad Acts impeachment evidence",
+    "rule": "if act is probative of truthfulness, it\u2019s allowed (court has discretion to allow); NO EXTRINSIC EVIDENCE"
   },
   {
-    "topic": "Rehabilitation",
+    "topic": "Rehabilitation impeachment",
     "rule": "if impeached, can be rehabilitated through explanation, good character witnesses, or prior consistent statement"
   },
   {
-    "topic": "Prior Statements of Testifying Witnesses",
+    "topic": "Hearsay",
+    "rule": "OUT OF COURT STATEMENT OFFERED TO PROVE THE MATTER ASSERTED (with 4 exceptions)"
+  },
+  {
+    "topic": "When Prior Statements of Testifying Witnesses aren't hearsay",
     "rule": "not hearsay if prior statement was one of identification, inconsistent and given under oath at prior proceeding, or consistent and offered to rebut charge of lying or to rehabilitate witness"
   },
   {
-    "topic": "Party Opponent",
+    "topic": "Party Opponent (is it hearsay)",
     "rule": "opposing party\u2019s statement is NOT HEARSAY"
   },
   {
-    "topic": "Confrontation Clause",
-    "rule": "hearsay not admitted if"
+    "topic": "Unavailable exceptions to hearsay",
+    "rule": "Former testimony under oath against whom testimony is now being offered (opportunity to cross), Statements against interest, Dying declaration: believe death is imminent and concerns cause of death, Offered against party that procured unavailability for purpose of preventing testimony"
+  }, {
+    "topic": "Confrontation Clause main factors",
+    "rule": "unavailable, testimonial, opportunity to cross"
   },
   {
-    "topic": "Statement was testimonial",
+    "topic": "Testimonial statement",
     "rule": "statements that are deliberately made to be used in a legal proceeding"
   },
   {
-    "topic": "Attorney Client",
+    "topic": "Attorney Clien privileget",
     "rule": "applies to confidential communications between attorney and client made during professional legal consultation unless waived"
   },
   {
-    "topic": "Physician Patient",
+    "topic": "Physician Patient privilege",
     "rule": "no federal privilege  made for purpose of diagnosis and necessary for diagnosis"
   },
   {
-    "topic": "Psychotherapist/Social Worker Patient",
+    "topic": "Psychotherapist/Social Worker Patient privilege",
     "rule": "same as attorney client"
   },
   {
-    "topic": "Spousal Testimonial (CRIMINAL ONLY)",
+    "topic": "Spousal Testimonial (CRIMINAL ONLY) privilege",
     "rule": "if spouse is D, may not be called as witness"
   },
   {
     "topic": "Confidential Marital Communications",
     "rule": "can refuse to disclose communication or prevent disclosure if married when communication made"
-  },
-  {
-    "topic": "Present Possessory Estates",
-    "rule": "indefeasible and defeasible estates"
   },
   {
     "topic": "Life Estates",
@@ -932,7 +927,7 @@
     "rule": "each tenant has distinct, proportionate, undivided interest in property with no right in survivorship"
   },
   {
-    "topic": "Notice",
+    "topic": "Notice for BFP",
     "rule": "actual, inquiry, and record notice"
   },
   {
@@ -964,15 +959,15 @@
     "rule": "assignment creates privity of estate for new party but retains privity of contract for original tenant/landlord; sublease does not create privity for new party"
   },
   {
-    "topic": "Conveyance",
+    "topic": "Conveyance requirements",
     "rule": "contract and closing"
   },
   {
-    "topic": "Deeds",
+    "topic": "3 Deeds",
     "rule": "general warranty, special warrant, quitclaim"
   },
   {
-    "topic": "Wills",
+    "topic": "Will requirement to not fail",
     "rule": "testator must own at time of death and beneficiary must be alive (unless anti-lapse statute and related) for gift to pass"
   },
   {
@@ -988,23 +983,23 @@
     "rule": "a person who takes from a bona fide purchaser will prevail against any interest that the transferor-bona fide purchaser would have prevailed against."
   },
   {
-    "topic": "Easement",
+    "topic": "Easement and creation types",
     "rule": "grant of interest in land allowing use; created by grant, prescription, necessity, or implication"
   },
   {
-    "topic": "Easement by Prescription",
+    "topic": "Easement by Prescription requirements",
     "rule": "continuous, open and notorious, actual, hostile"
   },
   {
-    "topic": "Termination",
+    "topic": "Termination of easement",
     "rule": "stated condition, unity of ownership (merger), abandonment, estoppel, prescription, necessity, release, or condemnation"
   },
   {
-    "topic": "License",
+    "topic": "License (property)",
     "rule": "permission to go onto another\u2019s land"
   },
   {
-    "topic": "Profit",
+    "topic": "Profit (property)",
     "rule": "right to take resources"
   },
   {
@@ -1020,11 +1015,11 @@
     "rule": "assures that there are neither visible encumbrances (easements, servitudes, etc.) nor invisible encumbrances (mortgages, etc.) against the title or interest conveyed"
   },
   {
-    "topic": "Title Theories",
+    "topic": "Mortgage Title Theories",
     "rule": "lien, title, and intermediate"
   },
   {
-    "topic": "Transfer",
+    "topic": "Transfer of mortgage",
     "rule": "grantee may agree to assume mortgage (subject to =/= assumption)"
   },
   {
@@ -1032,11 +1027,7 @@
     "rule": "termination of junior interests, entitled to surplus remaining"
   },
   {
-    "topic": "Special Characteristics",
-    "rule": "fixtures, water, zoning"
-  },
-  {
-    "topic": "Security Interest",
+    "topic": "Security Interest (what beyond initial collateral can it include)",
     "rule": "can include after-acquired property (if explicit in agreement) and proceeds (automatic) in collateral"
   },
   {
@@ -1044,23 +1035,23 @@
     "rule": "arises when secured party sells good on credit and retains security interest on collateral OR creditor loans funds to debtor to purchase specific collateral and retains security interest"
   },
   {
-    "topic": "Goods",
-    "rule": "how does debtor use; must be tangible and movable"
+    "topic": "Goods (secured transaction types)",
+    "rule": "Consumer, equipment, inventory, farm products"
   },
   {
-    "topic": "Intangible Collateral",
-    "rule": "eight types depending on the nature of the collateral rather than use"
+    "topic": "Intangible Collateral (secured transaction types)",
+    "rule": "instruments, documenets, chattel paper, investment property, accounts, deposit accounts, commercial tort claims, general intangibles"
   },
   {
-    "topic": "Attachment",
+    "topic": "Attachment requirements",
     "rule": "requires signed security agreement (or possession/control by creditor), value given by secured party, and debtor rights in collateral"
   },
   {
-    "topic": "Security Agreement",
+    "topic": "Security Agreement requirements",
     "rule": "must be signed, evidenced by record, and describe collateral (no supergeneric descriptions allowed)"
   },
   {
-    "topic": "Perfection",
+    "topic": "Perfection (what does it do)",
     "rule": "creates secured party rights against 3Ps, 5 methods"
   },
   {
@@ -1068,35 +1059,35 @@
     "rule": "PMSI in consumer goods perfected as soon as it attaches"
   },
   {
-    "topic": "Cars Exception",
+    "topic": "Cars Exception to automatic perfection",
     "rule": "only perfected by notation on certificate of title issued by state"
   },
   {
-    "topic": "Possession",
+    "topic": "Possession Perfection",
     "rule": "simply take actual possession in TANGIBLE collateral"
   },
   {
-    "topic": "Control",
+    "topic": "Control Perfection",
     "rule": "SIs in investment property, non-consumer deposit accounts, and e-documents that are CONTROLLED by SP"
   },
   {
-    "topic": "Filing",
+    "topic": "Filing Perfection",
     "rule": "file financing statement with debtor\u2019s name and address, SP\u2019s name and address, and description of collateral"
   },
   {
-    "topic": "Where to File",
+    "topic": "Where to File for perfection",
     "rule": "generally centrally (secretary of state in state where debtor is located)"
   },
   {
-    "topic": "What Law Governs",
+    "topic": "What Law Governs filing perfection",
     "rule": "generally where debtor is located is what governs"
   },
   {
-    "topic": "Movement of Debtor or Collateral",
+    "topic": "Movement of Debtor or Collateral after filing",
     "rule": "debtor moves = 4 months to refile; collateral moves to new owner = 1 year to refile"
   },
   {
-    "topic": "Continuation",
+    "topic": "Continuation of financing statement",
     "rule": "financing statement is valid for 5 years"
   },
   {
@@ -1104,67 +1095,67 @@
     "rule": "automatic perfection in proceeds from perfected collateral for 20 days after receipt"
   },
   {
-    "topic": "Priorities",
+    "topic": "Priorities, when do they arise",
     "rule": "whenever there is a conflict of interests in same collateral, question of priority rises"
   },
   {
-    "topic": "Secured Party v. Secured Party",
+    "topic": "Secured Party v. Secured Party priority",
     "rule": "first to file (if both perfected) or attach (if both unperfected); if one perfected, they win"
   },
   {
-    "topic": "Secured Party v. Buyer or Transferee",
+    "topic": "Secured Party v. Buyer or Transferee priority",
     "rule": "security interest generally stays on collateral after transfer unless authorized by secured party"
   },
   {
-    "topic": "Unauthorized Sales",
+    "topic": "Unauthorized Sales priority",
     "rule": "buyer in ordinary course of business takes free of interests created by buyer\u2019s seller"
   },
   {
-    "topic": "Consumer to Consumer Sales",
+    "topic": "Consumer to Consumer Sales priority",
     "rule": "buyer takes free of security interest if buyer takes without knowledge, for value, for personal/family/household goods, before financing statement covering goods has been filed"
   },
   {
-    "topic": "Secured Party v. Judicial Lien Creditor",
+    "topic": "Secured Party v. Judicial Lien Creditor priority",
     "rule": "date becomes judicial lien vs. perfection date (earlier wins)"
   },
   {
-    "topic": "Secured Party v. Possessory Lien",
+    "topic": "Secured Party v. Possessory Lien priority",
     "rule": "possessory lien has priority over perfected security interest"
   },
   {
-    "topic": "Default",
+    "topic": "Default (debtor)",
     "rule": "default triggers creditor rights  defined by security agreement (typically failure to pay or perform)"
   },
   {
-    "topic": "Self Help Possession",
+    "topic": "Self Help Possession after default",
     "rule": "fine if no breach of peace (physical presence and verbal objection)"
   },
   {
-    "topic": "Strict Foreclosure",
+    "topic": "Strict Foreclosure after default",
     "rule": "notify other creditors of collateral"
   },
   {
-    "topic": "Resale",
+    "topic": "Resale after default",
     "rule": "may resell collateral so long as its commercially reasonable"
   },
   {
-    "topic": "Proceeds",
+    "topic": "Proceeds after resale (default)",
     "rule": "same as foreclosure, debtor gets surplus"
   },
   {
-    "topic": "Penalties",
+    "topic": "Penalties for failing to follow default rules",
     "rule": "liable for actual damages caused by failure to follow Code rules"
   },
   {
-    "topic": "Redemption",
+    "topic": "Redemption for defaulted secured transaction",
     "rule": "any time before resale debtor must pay creditor all back before foreclosure"
   },
   {
-    "topic": "Fixtures",
+    "topic": "Fixtures (where to file to perfect)",
     "rule": "fixture filings go where mortgage would be filed"
   },
   {
-    "topic": "Priority",
+    "topic": "Priority for fixtures",
     "rule": "fixture SI has priority over any real estate interest that is recorded subsequent to the perfection of the security interest by fixture filing"
   },
   {
@@ -1172,8 +1163,8 @@
     "rule": "goods within goods that are removable"
   },
   {
-    "topic": "Priority",
-    "rule": "generally same rules"
+    "topic": "Priority of accessions",
+    "rule": "generally same rules, can remove if you have priority"
   },
   {
     "topic": "Negligence",
@@ -1188,19 +1179,39 @@
     "rule": "act as reasonably prudent person would under same circumstances"
   },
   {
-    "topic": "Landowners",
+    "topic": "Landowners duty of care",
     "rule": "depends on status of injured person"
   },
   {
-    "topic": "Persons with major physical disability",
+    "topic": "Landowners duty of care to undiscovered trespasser",
+    "rule": "no duty"
+  }, 
+  {
+    "topic": "Landowners duty of care to discovered/anticipated trespasser",
+    "rule": "duty to warn or make safe known, not obvious, highly dangerous artificial conditions"
+  }, 
+  {
+    "topic": "Landowners duty of care to child trespassers",
+    "rule": "attractive nuisance creates heightened duty"
+  }, 
+  {
+    "topic": "Landowners duty of care to licensees",
+    "rule": "duty to warn or make safe known, not obvious, dangerous conditions"
+  }, 
+  {
+    "topic": "Landowners duty of care to invitees",
+    "rule": "duty to warn or make safe known, not obvious, dangerous conditions AND reasonably inspect"
+  }, 
+  {
+    "topic": "Duty of persons with major physical disability",
     "rule": "reasonable person with that disability"
   },
   {
-    "topic": "Children",
+    "topic": "Duty of children",
     "rule": "like age, intelligence, and experience"
   },
   {
-    "topic": "Professionals",
+    "topic": "Duty of professionals",
     "rule": "reasonable professional in these circumstances"
   },
   {
@@ -1208,31 +1219,31 @@
     "rule": "statute becomes standard of care if violated and injury is anticipated by statute (meant to protect)"
   },
   {
-    "topic": "Breach of Duty",
-    "rule": "question of fact"
+    "topic": "Breach of Duty (question of fact or law)",
+    "rule": "question of fact, throw it to jury or factfinder"
   },
   {
-    "topic": "Per Se",
-    "rule": "violation establishes presumption of breach"
+    "topic": "Per Se breach",
+    "rule": "violation of statute establishes presumption of breach"
   },
   {
     "topic": "Res Ipsa Loquitur",
-    "rule": "must be negligence"
+    "rule": "must be negligence bc how else chile"
   },
   {
-    "topic": "Custom or Practice",
+    "topic": "Custom or Practice - can it establish negligence element",
     "rule": "can establish breach"
   },
   {
-    "topic": "Factual",
+    "topic": "Factual cause",
     "rule": "but for test"
   },
   {
-    "topic": "Proximate",
+    "topic": "Proximate cause",
     "rule": "foreseeable consequences of negligent actions"
   },
   {
-    "topic": "Damages",
+    "topic": "Damages in negligence",
     "rule": "actual harm or injury to person or property; eggshell plaintiff"
   },
   {
@@ -1240,7 +1251,7 @@
     "rule": "pure (percentage) or partial (percentage but P cannot recover if their fault exceeds threshold)"
   },
   {
-    "topic": "Assumption of Risk",
+    "topic": "Assumption of Risk 2 types",
     "rule": "express or implied"
   },
   {
@@ -1248,27 +1259,27 @@
     "rule": "near miss cases and bystander cases create liability"
   },
   {
-    "topic": "Zone of Danger",
+    "topic": "Zone of Danger theory of NIED",
     "rule": "risk of physical injury in zone of danger with emotional distress and physical symptoms"
   },
   {
-    "topic": "Bystander",
+    "topic": "Bystander theory of NIED",
     "rule": "not in zone of danger, closely related to victim, present and personally sees event"
   },
   {
-    "topic": "Intentional Torts",
-    "rule": "intent transfers tort to tort and intended victim to actual victim"
+    "topic": "Intentional Torts - must you intend that specific tort",
+    "rule": "No intent transfers tort to tort and intended victim to actual victim"
   },
   {
-    "topic": "Battery",
+    "topic": "Battery (tort)",
     "rule": "harmful or offensive contact with plaintiff\u2019s person intentionally caused by defendant"
   },
   {
-    "topic": "Assault",
+    "topic": "Assault (tort)",
     "rule": "reasonable apprehension of immediate harmful or offensive contact intentionally caused by defendant"
   },
   {
-    "topic": "False Imprisonment",
+    "topic": "False Imprisonment (tort)",
     "rule": "intentional act or omission causing plaintiff the be confined or restrained to bounded area"
   },
   {
@@ -1288,7 +1299,7 @@
     "rule": "intentional act causing serious interference with P\u2019s right of possession in chattel"
   },
   {
-    "topic": "Defenses",
+    "topic": "Defenses to intentional torts",
     "rule": "consent, protective privileges, and necessity (property torts only)"
   },
   {
@@ -1296,7 +1307,7 @@
     "rule": "substantial and unreasonable interference with another person\u2019s use or enjoyment of property"
   },
   {
-    "topic": "Strict Liability",
+    "topic": "Strict Liability (tort)",
     "rule": "without fault liability for wild animals, known dangerous domestic animal, abnormally dangerous activity, or products liability"
   },
   {
@@ -1305,10 +1316,10 @@
   },
   {
     "topic": "Strict Liability",
-    "rule": "P must show"
+    "rule": "P must show merchant defendant, defective when it left control, causation, damages"
   },
   {
-    "topic": "Defenses",
+    "topic": "Defenses to products liability",
     "rule": "assumption of risk is defense"
   },
   {
@@ -1321,14 +1332,14 @@
   },
   {
     "topic": "Elements of a Valid Private Trust",
-    "rule": "Sabotaged? It\u2019s Thorgy, Bob\u2019s Perpetual Problem."
+    "rule": "Settlor w capacity, present intent to create trust, trustee, beneficiary, trust property, valid trust purpose"
   },
   {
-    "topic": "Capacity",
+    "topic": "Settlor Capacity",
     "rule": "inter vivos gift equivalent for inter vivos trust and will equivalent for testamentary trust"
   },
   {
-    "topic": "Intent",
+    "topic": "Settlor Intent",
     "rule": "must intend trust to take effect immediately through words or conduct"
   },
   {
@@ -1344,11 +1355,11 @@
     "rule": "no property, no trust (future interests okay)"
   },
   {
-    "topic": "Valid Purpose",
+    "topic": "Valid Purpose of trust",
     "rule": "any purpose except one that is illegal, impossible, intended to defraud settlor\u2019s creditors, or contrary to public policy"
   },
   {
-    "topic": "Creation",
+    "topic": "Creation of trust",
     "rule": "inter vivos and testamentary methods"
   },
   {
@@ -1360,28 +1371,28 @@
     "rule": "gift in will to person in trust with no named beneficiary"
   },
   {
-    "topic": "By Settlor",
+    "topic": "Modification or termination of trust by Settlor",
     "rule": "trusts presumed revocable and modifiable unless expressly stated otherwise (UTC)"
   },
   {
-    "topic": "By Beneficiary",
+    "topic": "Modification or termination of trust by Beneficiary",
     "rule": "may terminate or modify if"
   },
   {
-    "topic": "By Court",
+    "topic": "Modification or termination of trust by Court",
     "rule": "court may modify or terminate if\u2026"
   },
   {
-    "topic": "By Trustee",
+    "topic": "Modification or termination of trust by Trustee",
     "rule": "if trust property is less than 50k and insufficient to justify administrative cost"
   },
   {
     "topic": "Powers of Trustees",
-    "rule": "four powers unless limited or forbidden by trust"
+    "rule": "express powers from trust, power over individual property, power to appropriately achieve investment/management/distribution of trust property, powers conferred by UTC"
   },
   {
     "topic": "Duties of Trustee",
-    "rule": "Alyssa Left? Roxxxy, Seriously Please!"
+    "rule": "Administer trust, loyalty, report, separate trust property, preserve property and make productive"
   },
   {
     "topic": "Liabilities of Trustees",
@@ -1392,7 +1403,7 @@
     "rule": "trustee must allocate assets to principal or income in impartial manner benefitting beneficiaries fairly"
   },
   {
-    "topic": "Allocation",
+    "topic": "Allocation of receipts and expenses",
     "rule": "Interest, Rent, and Cash Dividends go to Income; Sales, Stock Dividends, and Insurance to Principal. Expenses for upkeep go to Income; expenses for changes go to Principal."
   },
   {
@@ -1440,23 +1451,23 @@
     "rule": "spouse (1/3 or 1/2) and/or descendants  parents  descendants of parents (siblings or their kids)  maternal/paternal grandparent and descendants  nearest kin  the state"
   },
   {
-    "topic": "Per Capita",
+    "topic": "Per Capita intestate",
     "rule": "majority is per capita with representation"
   },
   {
-    "topic": "Execution",
+    "topic": "Execution of will requirements",
     "rule": "legal capacity, testamentary capacity, testamentary intent"
   },
   {
-    "topic": "Formal Attested Wills",
+    "topic": "Formal Attested Wills requirements",
     "rule": "general requirements plus in writing, signed by testator, two attesting witnesses who sign in testator\u2019s presence"
   },
   {
-    "topic": "Holographic Wills",
+    "topic": "Holographic Wills requirements",
     "rule": "general requirements plus material provisions of will in testator\u2019s handwriting, signed, no witnesses needed"
   },
   {
-    "topic": "Disclaimer",
+    "topic": "Disclaimer of will gift",
     "rule": "beneficiary may disclaim any interest with the consequence that the interest passes as though the disclaimant predeceased the decedent"
   },
   {
@@ -1496,7 +1507,7 @@
     "rule": "insufficient to pay all claims and satisfy all bequests/devises"
   },
   {
-    "topic": "Priority",
+    "topic": "Priority of abatement",
     "rule": "abates in following order intestacy property, residuary estate, general legacy, demonstrative legacy, specific bequests and devises"
   },
   {
@@ -1517,14 +1528,14 @@
   },
   {
     "topic": "Latent Ambiguity",
-    "rule": "extrinsic evidence allowed"
+    "rule": "hidden ambiguity = extrinsic evidence allowed"
   },
   {
     "topic": "No Apparent Ambiguity",
     "rule": "if plain meaning then no extrinsic evidence"
   },
   {
-    "topic": "Incorporation",
+    "topic": "Incorporation into will",
     "rule": "in most states, a document that is not present when the will is executed may be incorporated into the will by reference and considered part of the will if: it was in existence at the time the will was executed, the will sufficiently describes the document, and the will manifests an intent to incorporate the document"
   },
   {
