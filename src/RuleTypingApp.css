@@ -1,0 +1,157 @@
+/* App Container */
+.app-container {
+  max-width: 576px; /* equivalent to max-w-xl */
+  margin: 40px auto 0; /* equivalent to mt-10 mx-auto */
+  padding: 16px; /* equivalent to p-4 */
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* equivalent to space-y-4 */
+}
+
+/* Rule title */
+.rule-title {
+  font-size: 1.25rem; /* equivalent to text-xl */
+  font-weight: 600; /* equivalent to font-semibold */
+  margin: 0;
+  color: #1f2937;
+}
+
+/* Input styling */
+.rule-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px; /* equivalent to text-sm */
+  background: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.rule-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.rule-input::placeholder {
+  color: #9ca3af;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  gap: 8px; /* equivalent to gap-2 */
+}
+
+/* Button styling */
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s, transform 0.1s;
+  min-width: 80px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+/* Primary button */
+.button-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #2563eb;
+}
+
+/* Secondary button */
+.button-secondary {
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.button-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+/* Answer section */
+.answer-section {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 16px;
+}
+
+/* Feedback text */
+.correct {
+  color: #16a34a; /* equivalent to text-green-600 */
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.incorrect {
+  color: #dc2626; /* equivalent to text-red-600 */
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.correct-answer {
+  color: #374151; /* equivalent to text-gray-700 */
+  margin: 0;
+  font-style: italic;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.correct-answer {
+  margin-top: 10px;
+}
+
+.match {
+  background-color: #d4edda;
+  padding: 2px 4px;
+  margin: 1px;
+  border-radius: 4px;
+}
+
+.mismatch {
+  background-color: #f8d7da;
+  padding: 2px 4px;
+  margin: 1px;
+  border-radius: 4px;
+}
