@@ -1601,6 +1601,27 @@
   {
     "topic": "Dependent Relative Revocation",
     "rule": "can make revocation fail if testator revoked at mistaken belief that another disposition would be effective, and but for mistake they wouldn\u2019t have revoked"
-  }
-      }
+  },
+  {
+    "topic": "Will Contests",
+    "rule": "testamentary capacity, undue influence, fraud, mistake, revocation"
+  },
+  {
+    "topic": "Testamentary Capacity",
+    "rule": "testator must understand nature of act, nature and extent of property, and natural objects of bounty"
+  },
+  {
+    "topic": "Undue Influence",
+    "rule": "influence that overcomes free will and causes testator to make a will that he would not have made but for the influence"
+  },
+  {
+    "topic": "Fraud",
+    "rule": "fraud in the inducement or execution"
+  },
+  {
+    "topic": "Mistake",
+    "rule": "mistake in fact or law that defeats testator's intent"
+  } ]
+}
+
 ]
