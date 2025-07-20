@@ -1,112 +1,163 @@
 import { useState, useEffect } from "react";
-import "./RuleTypingApp.css"; // You'll need to create this CSS file
+import Fuse from "fuse.js";
+import "./RuleTypingApp.css";
 
-const rulesURL = "/rules.json"; // Place the full rules array in public/rules.json
+const rulesURL = "/rules.json";
 
 export default function RuleTypingApp() {
   const [rules, setRules] = useState([]);
-  const [input, setInput] = useState("");
+  const [subjects, setSubjects] = useState([]);
+  const [selectedSubject, setSelectedSubject] = useState("");
+  const [filteredRules, setFilteredRules] = useState([]);
   const [currentRuleIndex, setCurrentRuleIndex] = useState(0);
-  const [isCorrect, setIsCorrect] = useState(false);
+  const [input, setInput] = useState("");
+  const [matchPercentage, setMatchPercentage] = useState(0);
+  const [feedback, setFeedback] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [answerHistory, setAnswerHistory] = useState([]);
 
   useEffect(() => {
     fetch(rulesURL)
       .then((res) => res.json())
-      .then(setRules);
+      .then((data) => {
+        setRules(data);
+        const uniqueSubjects = [...new Set(data.map(rule => rule.topic.split(" - ")[0]))];
+        setSubjects(uniqueSubjects);
+      });
   }, []);
-  
-function shuffleArray(array) {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+
+ useEffect(() => {
+  if (selectedSubject) {
+    const filtered = rules.filter(rule => rule.subject === selectedSubject);
+    setFilteredRules(filtered);
+    setCurrentRuleIndex(0);
+    setInput("");
+    setFeedback(null);
+    setShowAnswer(false);
   }
-  return shuffled;
-}
-  const currentRule = rules[currentRuleIndex];
+}, [selectedSubject, rules]);
+
+  const currentRule = filteredRules[currentRuleIndex];
+
+  const getMatchPercentage = (a, b) => {
+    const fuse = new Fuse([b], { includeScore: true, threshold: 0.6 });
+    const result = fuse.search(a);
+    return result.length > 0 ? Math.round((1 - result[0].score) * 100) : 0;
+  };
 
   const checkAnswer = () => {
-    const normalizedInput = input.trim().toLowerCase();
-    const normalizedRule = currentRule.rule.trim().toLowerCase();
-    setIsCorrect(normalizedInput === normalizedRule);
+    const userInput = input.trim().toLowerCase();
+    const correctAnswer = currentRule.rule.trim().toLowerCase();
+    const percent = getMatchPercentage(userInput, correctAnswer);
+    setMatchPercentage(percent);
+
+    let result = null;
+    if (percent >= 80) result = "Correct!";
+    else if (percent >= 50) result = "Needs improvement.";
+    else result = "Incorrect.";
+
+    setFeedback(result);
     setShowAnswer(true);
+
+    setAnswerHistory((prev) => [
+      ...prev,
+      {
+        topic: currentRule.topic,
+        userInput: input,
+        correct: correctAnswer,
+        match: percent,
+        result
+      }
+    ]);
   };
 
   const nextRule = () => {
     setInput("");
-    setIsCorrect(false);
+    setFeedback(null);
     setShowAnswer(false);
-    setCurrentRuleIndex((prevIndex) => (prevIndex + 1) % rules.length);
+    setCurrentRuleIndex((prev) => (prev + 1) % filteredRules.length);
   };
+
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  const shuffleRules = () => {
+    const shuffled = shuffleArray(filteredRules);
+    setFilteredRules(shuffled);
+    setCurrentRuleIndex(0);
+    setInput("");
+    setFeedback(null);
+    setShowAnswer(false);
+  };
+
+  function getHighlightedComparison(userInput, correctText) {
+    const inputWords = userInput.trim().toLowerCase().split(/\s+/);
+    const correctWords = correctText.trim().split(/\s+/);
+
+    return correctWords.map((word, idx) => {
+      const cleanedWord = word.replace(/[.,!?]/g, '').toLowerCase();
+      const match = inputWords.includes(cleanedWord);
+
+      return (
+        <span key={idx} className={match ? "match" : "mismatch"}>
+          {word + " "}
+        </span>
+      );
+    });
+  }
 
   if (!currentRule) return <div className="loading">Loading rules...</div>;
 
-function getHighlightedComparison(userInput, correctText) {
-  const inputWords = userInput.trim().toLowerCase().split(/\s+/);
-  const correctWords = correctText.trim().split(/\s+/);
-
-  return correctWords.map((word, idx) => {
-    const cleanedWord = word.replace(/[.,!?]/g, '').toLowerCase();
-    const match = inputWords.includes(cleanedWord);
-    
-    return (
-      <span
-        key={idx}
-        className={match ? "match" : "mismatch"}
-      >
-        {word + " "}
-      </span>
-    );
-  });
-}
-
   return (
     <div className="app-container">
-      <div className="card">
-        <div className="card-content">
-          <h2 className="rule-title">{currentRule.topic}</h2>
-          <input
-            className="rule-input"
-            placeholder="Type the rule here..."
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-          />
-         <div className="button-group">
-  <button className="button button-primary" onClick={checkAnswer}>
-    Check
-  </button>
-  <button className="button button-secondary" onClick={nextRule}>
-    Next
-  </button>
-  <button className="button button-secondary" onClick={() => {
-    const shuffled = shuffleArray(rules);
-    setRules(shuffled);
-    setCurrentRuleIndex(0);
-    setInput("");
-    setIsCorrect(false);
-    setShowAnswer(false);
-  }}>
-    Shuffle
-  </button>
-</div>
-
-          
-          {showAnswer && (
-            <div className="answer-section">
-              <p className={isCorrect ? "correct" : "incorrect"}>
-                {isCorrect ? "Correct!" : "Incorrect."}
-              </p>
-              {!isCorrect && (
-                <div className="correct-answer">
-  Correct Answer: {getHighlightedComparison(input, currentRule.rule)}
-</div>
-
-              )}
-            </div>
-          )}
-        </div>
+      <div className="subject-select">
+        <label>Select Subject: </label>
+        <select value={selectedSubject} onChange={(e) => setSelectedSubject(e.target.value)}>
+          <option value="">-- Choose --</option>
+          {subjects.map((subj) => (
+            <option key={subj} value={subj}>{subj}</option>
+          ))}
+        </select>
       </div>
+
+      {selectedSubject && (
+        <div className="card">
+          <div className="card-content">
+            <h2 className="rule-title">{currentRule.topic}</h2>
+            <input
+              className="rule-input"
+              placeholder="Type the rule here..."
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
+
+            <div className="button-group">
+              <button className="button button-primary" onClick={checkAnswer}>Check</button>
+              <button className="button button-secondary" onClick={nextRule}>Next</button>
+              <button className="button button-secondary" onClick={shuffleRules}>Shuffle</button>
+            </div>
+
+            {showAnswer && (
+              <div className="answer-section">
+                <p className={feedback === "Correct!" ? "correct" : feedback === "Needs improvement." ? "partial" : "incorrect"}>
+                  {feedback} ({matchPercentage}% match)
+                </p>
+                {feedback !== "Correct!" && (
+                  <div className="correct-answer">
+                    Correct Answer: {getHighlightedComparison(input, currentRule.rule)}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
