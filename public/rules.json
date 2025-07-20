@@ -1,4 +1,7 @@
 [
+{
+    "subject": "Agency and Partnerships",
+    "rules": [
   {
     "topic": "Creation of Agency",
     "rule": "capacity, consent, and writing (if SoF applies)"
@@ -58,7 +61,11 @@
   {
     "topic": "Actual Authority (partnership requirements)",
     "rule": "requires a majority vote of the partners, and actual authority to enter into matters outside the ordinary course of business requires unanimous consent of all partners."
-  },
+  } ]
+},
+{
+    "subject": "Civil Procedure",
+    "rules": [
   {
     "topic": "Personal Jurisdiction (2 requirements)",
     "rule": "need statutory and constitutional jurisdiction"
@@ -191,11 +198,16 @@
     "topic": "Issue Preclusion",
     "rule": "judgment binds parties and privies in subsequent actions as to actually issued litigated"
   },
+      
   {
     "topic": "Claim Preclusion",
     "rule": "final judgment on the merits bars claimant from asserting same claim in later action"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Conflict of Laws",
+    "rules": [
+      {
     "topic": "Recognition of Sister State Judgments",
     "rule": "arises when judgment has been entered by a court in one jurisdiction and is seeking to be enforced in another in a sister state"
   },
@@ -234,8 +246,12 @@
   {
     "topic": "Most Significant Relationship",
     "rule": "Rule: state related most to issue then public policy "
-  },
-  {
+  } ]
+},
+{
+    "subject": "Corporations",
+    "rules": [
+      {
     "topic": "Formation Requirements of Corporation",
     "rule": "file articles of incorporation with name of corporation, number of authorized shares, and name and address of incorporators and of registered agent"
   },
@@ -370,8 +386,12 @@
   {
     "topic": "LLC member transferability",
     "rule": "free transfer of economic rights but not management rights"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Criminal Law",
+    "rules": [
+      {
     "topic": "Crim Law - Voluntary Act",
     "rule": "reflexes and unconscious acts not enough"
   },
@@ -582,8 +602,12 @@
   {
     "topic": "Double Jeopardy attachment",
     "rule": "attaches at swearing in of jury or when first witness is sworn (bench trials)"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Family Law",
+    "rules": [
+      {
     "topic": "Contents of premarital agreement",
     "rule": "generally valid, but cannot contain custody or child support provisions (will be stricken)"
   },
@@ -706,8 +730,12 @@
   {
     "topic": "Adoption effect on rights",
     "rule": "terminates parents rights and unmarried father can only veto if he has undertaken parental responsibility"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Evidence",
+    "rules": [
+      {
     "topic": "Relevance (evidence)",
     "rule": "must be MATERIAL and PROBATIVE (evidence of fleeing prosecution is relevant of guilt)"
   },
@@ -1025,8 +1053,12 @@
   {
     "topic": "Foreclosure",
     "rule": "termination of junior interests, entitled to surplus remaining"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Secured TRANSactions",
+    "rules": [
+      {
     "topic": "Security Interest (what beyond initial collateral can it include)",
     "rule": "can include after-acquired property (if explicit in agreement) and proceeds (automatic) in collateral"
   },
@@ -1165,8 +1197,12 @@
   {
     "topic": "Priority of accessions",
     "rule": "generally same rules, can remove if you have priority"
-  },
-  {
+   } ]
+},
+{
+    "subject": "Farts",
+    "rules": [
+      {
     "topic": "Negligence",
     "rule": "duty of care, breach of duty, causation, damages"
   },
@@ -1333,8 +1369,12 @@
   {
     "topic": "Elements of a Valid Private Trust",
     "rule": "Settlor w capacity, present intent to create trust, trustee, beneficiary, trust property, valid trust purpose"
-  },
-  {
+  } ]
+},
+{
+    "subject": "Wills",
+    "rules": [
+      {
     "topic": "Settlor Capacity",
     "rule": "inter vivos gift equivalent for inter vivos trust and will equivalent for testamentary trust"
   },
@@ -1562,4 +1602,5 @@
     "topic": "Dependent Relative Revocation",
     "rule": "can make revocation fail if testator revoked at mistaken belief that another disposition would be effective, and but for mistake they wouldn\u2019t have revoked"
   }
+      }
 ]
