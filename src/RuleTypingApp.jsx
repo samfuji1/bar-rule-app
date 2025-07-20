@@ -16,29 +16,37 @@ export default function RuleTypingApp() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [answerHistory, setAnswerHistory] = useState([]);
 
-useEffect(() => {
-  fetch(rulesURL)
-    .then((res) => res.json())
-    .then((groupedData) => {
-      const flatRules = groupedData.flatMap(group =>
-        group.rules.map(rule => ({
-          subject: group.subject,
-          topic: rule.topic,
-          rule: rule.rule
-        }))
-      );
+  // Load rules once on mount
+  useEffect(() => {
+    fetch(rulesURL)
+      .then((res) => res.json())
+      .then((groupedData) => {
+        const flatRules = groupedData.flatMap((group) =>
+          group.rules.map((rule) => ({
+            subject: group.subject,
+            topic: rule.topic,
+            rule: rule.rule,
+          }))
+        );
 
-      setRules(flatRules);
-      const uniqueSubjects = [...new Set(flatRules.map(rule => rule.subject))];
-      setSubjects(uniqueSubjects);
-    });
-}, []);
+        setRules(flatRules);
+        const uniqueSubjects = [...new Set(flatRules.map((rule) => rule.subject))];
+        setSubjects(uniqueSubjects);
+      });
+  }, []);
 
-
+  // Update filteredRules when selectedSubject or rules change
   useEffect(() => {
     if (selectedSubject) {
-      const filtered = rules.filter(rule => rule.topic.startsWith(selectedSubject));
+      const filtered = rules.filter((rule) => rule.subject === selectedSubject);
       setFilteredRules(filtered);
+      setCurrentRuleIndex(0);
+      setInput("");
+      setFeedback(null);
+      setShowAnswer(false);
+    } else {
+      // Reset filteredRules if no subject selected
+      setFilteredRules([]);
       setCurrentRuleIndex(0);
       setInput("");
       setFeedback(null);
@@ -55,6 +63,8 @@ useEffect(() => {
   };
 
   const checkAnswer = () => {
+    if (!currentRule) return;
+
     const userInput = input.trim().toLowerCase();
     const correctAnswer = currentRule.rule.trim().toLowerCase();
     const percent = getMatchPercentage(userInput, correctAnswer);
@@ -73,14 +83,16 @@ useEffect(() => {
       {
         topic: currentRule.topic,
         userInput: input,
-        correct: correctAnswer,
+        correct: currentRule.rule,
         match: percent,
-        result
-      }
+        result,
+      },
     ]);
   };
 
   const nextRule = () => {
+    if (!filteredRules.length) return;
+
     setInput("");
     setFeedback(null);
     setShowAnswer(false);
@@ -110,7 +122,7 @@ useEffect(() => {
     const correctWords = correctText.trim().split(/\s+/);
 
     return correctWords.map((word, idx) => {
-      const cleanedWord = word.replace(/[.,!?]/g, '').toLowerCase();
+      const cleanedWord = word.replace(/[.,!?]/g, "").toLowerCase();
       const match = inputWords.includes(cleanedWord);
 
       return (
@@ -121,7 +133,22 @@ useEffect(() => {
     });
   }
 
-  if (!currentRule) return <div className="loading">Loading rules...</div>;
+  if (!currentRule && selectedSubject) return <div className="loading">No rules found for this subject.</div>;
+
+  if (!selectedSubject) return (
+    <div className="app-container">
+      <div className="subject-select">
+        <label>Select Subject: </label>
+        <select value={selectedSubject} onChange={(e) => setSelectedSubject(e.target.value)}>
+          <option value="">-- Choose --</option>
+          {subjects.map((subj) => (
+            <option key={subj} value={subj}>{subj}</option>
+          ))}
+        </select>
+      </div>
+      <p>Please select a subject to start.</p>
+    </div>
+  );
 
   return (
     <div className="app-container">
@@ -135,38 +162,44 @@ useEffect(() => {
         </select>
       </div>
 
-      {selectedSubject && (
-        <div className="card">
-          <div className="card-content">
-            <h2 className="rule-title">{currentRule.topic}</h2>
-            <input
-              className="rule-input"
-              placeholder="Type the rule here..."
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-            />
+      <div className="card">
+        <div className="card-content">
+          <h2 className="rule-title">{currentRule.topic}</h2>
+          <input
+            className="rule-input"
+            placeholder="Type the rule here..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
 
-            <div className="button-group">
-              <button className="button button-primary" onClick={checkAnswer}>Check</button>
-              <button className="button button-secondary" onClick={nextRule}>Next</button>
-              <button className="button button-secondary" onClick={shuffleRules}>Shuffle</button>
-            </div>
-
-            {showAnswer && (
-              <div className="answer-section">
-                <p className={feedback === "Correct!" ? "correct" : feedback === "Needs improvement." ? "partial" : "incorrect"}>
-                  {feedback} ({matchPercentage}% match)
-                </p>
-                {feedback !== "Correct!" && (
-                  <div className="correct-answer">
-                    Correct Answer: {getHighlightedComparison(input, currentRule.rule)}
-                  </div>
-                )}
-              </div>
-            )}
+          <div className="button-group">
+            <button className="button button-primary" onClick={checkAnswer}>Check</button>
+            <button className="button button-secondary" onClick={nextRule}>Next</button>
+            <button className="button button-secondary" onClick={shuffleRules}>Shuffle</button>
           </div>
+
+          {showAnswer && (
+            <div className="answer-section">
+              <p
+                className={
+                  feedback === "Correct!"
+                    ? "correct"
+                    : feedback === "Needs improvement."
+                    ? "partial"
+                    : "incorrect"
+                }
+              >
+                {feedback} ({matchPercentage}% match)
+              </p>
+              {feedback !== "Correct!" && (
+                <div className="correct-answer">
+                  Correct Answer: {getHighlightedComparison(input, currentRule.rule)}
+                </div>
+              )}
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }
