@@ -1,14 +1,36 @@
 /* App Container */
 .app-container {
-  max-width: 576px; /* equivalent to max-w-xl */
-  margin: 40px auto 0; /* equivalent to mt-10 mx-auto */
-  padding: 16px; /* equivalent to p-4 */
+  max-width: 576px;
+  margin: 40px auto 0;
+  padding: 16px;
 }
 
 /* Loading state */
 .loading {
   text-align: center;
   padding: 40px;
+  font-size: 1.2rem;
+}
+
+/* Subject Dropdown */
+.subject-select {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subject-select label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.subject-select select {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: white;
 }
 
 /* Card styling */
@@ -23,13 +45,13 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px; /* equivalent to space-y-4 */
+  gap: 16px;
 }
 
 /* Rule title */
 .rule-title {
-  font-size: 1.25rem; /* equivalent to text-xl */
-  font-weight: 600; /* equivalent to font-semibold */
+  font-size: 1.25rem;
+  font-weight: 600;
   margin: 0;
   color: #1f2937;
 }
@@ -40,7 +62,7 @@
   padding: 8px 12px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
-  font-size: 14px; /* equivalent to text-sm */
+  font-size: 14px;
   background: white;
   transition: border-color 0.2s, box-shadow 0.2s;
   box-sizing: border-box;
@@ -59,10 +81,11 @@
 /* Button group */
 .button-group {
   display: flex;
-  gap: 8px; /* equivalent to gap-2 */
+  gap: 8px;
+  margin-top: 8px;
 }
 
-/* Button styling */
+/* Buttons */
 .button {
   padding: 8px 16px;
   border: none;
@@ -109,39 +132,32 @@
   padding-top: 16px;
 }
 
-/* Feedback text */
+/* Feedback styles */
 .correct {
-  color: #16a34a; /* equivalent to text-green-600 */
+  color: #16a34a;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.partial {
+  color: #f59e0b; /* amber-500 */
   font-weight: 600;
   margin: 0 0 8px 0;
 }
 
 .incorrect {
-  color: #dc2626; /* equivalent to text-red-600 */
+  color: #dc2626;
   font-weight: 600;
   margin: 0 0 8px 0;
 }
 
 .correct-answer {
-  color: #374151; /* equivalent to text-gray-700 */
-  margin: 0;
+  color: #374151;
+  margin-top: 10px;
   font-style: italic;
 }
 
-.correct {
-  color: green;
-  font-weight: bold;
-}
-
-.incorrect {
-  color: red;
-  font-weight: bold;
-}
-
-.correct-answer {
-  margin-top: 10px;
-}
-
+/* Match Highlighting */
 .match {
   background-color: #d4edda;
   padding: 2px 4px;
