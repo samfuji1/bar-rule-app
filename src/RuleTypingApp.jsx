@@ -16,15 +16,22 @@ export default function RuleTypingApp() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [answerHistory, setAnswerHistory] = useState([]);
 
-  useEffect(() => {
-    fetch(rulesURL)
-      .then((res) => res.json())
-      .then((data) => {
-        setRules(data);
-        const uniqueSubjects = [...new Set(data.map(rule => rule.topic.split(" - ")[0]))];
-        setSubjects(uniqueSubjects);
-      });
-  }, []);
+useEffect(() => {
+  fetch(rulesURL)
+    .then((res) => res.json())
+    .then((groupedData) => {
+      const flatRules = groupedData.flatMap(group =>
+        group.rules.map(rule => ({
+          subject: group.subject,
+          topic: rule.topic,
+          rule: rule.rule
+        }))
+      );
+      setRules(flatRules);
+      const uniqueSubjects = [...new Set(flatRules.map(rule => rule.subject))];
+      setSubjects(uniqueSubjects);
+    });
+}, []);
 
  useEffect(() => {
   if (selectedSubject) {
